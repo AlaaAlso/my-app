@@ -1,38 +1,69 @@
 .App {
   text-align: center;
+  font-family: "Fira Code", monospace;
+  font-family: "Noto Serif Display", serif;
+}
+.navbar {
+  background-color: rgb(171, 187, 181);
+  color: white !important;
+  font-size: x-large;
+}
+.img {
+  position: fixed;
+}
+.navmove {
+  padding: 0 0 0 1200px;
+}
+.color {
+  color: white !important;
+  letter-spacing: 3px;
+}
+#basic-nav-dropdown {
+  color: white !important;
+  letter-spacing: 3px;
+}
+.dropdown {
+  letter-spacing: 1.5px;
+}
+.Carousel h5,
+.Carousel p {
+  font-size: x-large;
+  color: rgb(119, 133, 105);
+}
+.boxform {
+  margin: 150px 400px;
+  padding: 100px 200px;
+  background-color: rgb(203, 222, 215);
+  border: 6px;
+  border-radius: 10px;
+  color: #f5faf6;
+  font-size: large;
+  padding: 80px 100px;
+}
+Button {
+  background-color: white !important;
+  color: rgb(171, 187, 181) !important;
+  border-color: #f5faf6 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carousel--item {
+  height: 800px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  background-color: #f5faf6 !important;
+  color: rgb(171, 187, 181) !important;
 }
-
-.App-link {
-  color: #61dafb;
+ul,
+a {
+  display: flex;
+  list-style: none;
+  color: rgb(171, 187, 181) !important;
+  text-decoration: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul,
+a,
+h2 {
+  margin: 20px 20px 0 0;
 }
