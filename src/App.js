@@ -6,7 +6,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import logo from "./logo.png";
 import pexels from "./pexels.jpg";
-import Spa from "./Spa.png";
 import green from "./green.jpg";
 import marble from "./marble.jpeg";
 import "./App.css";
@@ -17,12 +16,13 @@ function App() {
     <div className="App">
       <div className="navbar">
         <Navbar expand="lg">
-          <Container>
+          <Container className="navbar-content">
             <div className="img">
               <Navbar.Brand href="#home">
                 <img src={logo} width="250" alt="logo" />
               </Navbar.Brand>
             </div>
+            <div></div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <div className="navmove">
